@@ -1,6 +1,5 @@
-import $ from 'jquery';
-import dt from 'datatables.net-dt';
+import { defineConfig } from 'vite';
 
-$(document).ready(function () {
-    $('#tabla-ejemplo').DataTable();
+export default defineConfig({
+    base: '/app01/',
 });
