@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="/dataTables.dataTables.min.css" />
 </head>
 <body>
-<h1>Tabla con jQuery y DataTables</h1>
-<table id="tabla-ejemplo" class="display">
+<h1>Tabla con jQuery y DataTables - demo2</h1>
+<h6>Miembros: Santiago Riofrío y Kelvin Sarango</h6>
+<!--<table id="tabla-ejemplo" class="display">
   <thead>
   <tr><th>Nombre</th><th>Edad</th></tr>
   </thead>
@@ -17,7 +18,21 @@
   <tr><td>Santiago</td><td>21</td></tr>
   <tr><td>Kelvin</td><td>21</td></tr>
   </tbody>
+</table> -->
+<table id="tabla-ejemplo" class="diplay">
+  <thead>
+  <tr><th>Código</th><th>Nombre</th></tr>
+  </thead>
+  <tbody>
+    <!-- Filas dinámica -->
+  </tbody>
 </table>
+
+<hr>
+
+<button type="submit" id="obtenerInformacion">Obtener Información</button>
+<button type="submit" id="limpiarInformacion">Limpiar Información</button>
+
 <script type="module" src="src/main.js"></script>
 </body>
 </html>
